@@ -14,7 +14,7 @@
                                 <div class="navbar-header navbar-header-custom">
                                     <!-- start logo -->
                                     <NuxtLink to="/" class="navbar-brand logodefault"><img id="logo"
-                                            src="/logo.JPG" alt="logo"></NuxtLink>
+                                            :src="'/logo.JPG'" alt="logo"></NuxtLink>
                                     <!-- end logo -->
                                 </div>
 
