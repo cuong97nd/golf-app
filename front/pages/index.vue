@@ -21,15 +21,12 @@
 
 <template>
     <Header />
-    <Service />
-
+    <div class="h-[90px]"></div>
     <Service1 />
+    <Service />
     <AboutUs />
     <GolfGrid></GolfGrid>
-
- 
     <Contact />
-
     <Footer />
 </template>
   
