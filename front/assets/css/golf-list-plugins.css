@@ -4578,8 +4578,8 @@ fieldset:disabled .btn {
 }
 
 .navbar-brand {
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
+    /* padding-top: .3125rem;
+    padding-bottom: .3125rem; */
     margin-right: 1rem;
     font-size: 1.25rem;
     text-decoration: none;
@@ -38590,12 +38590,12 @@ header {
 }
 
 .navbar-brand img {
-    max-height: 43px;
+    max-height: 75px;
     transition-duration: 0.5s
 }
 
 .navbar-header-custom {
-    padding: 22px 0 20px 0
+    /* padding: 22px 0 20px 0 */
 }
 
 .navbar-default {
@@ -38942,7 +38942,7 @@ header {
     }
 
     .scrollHeader .navbar-header-custom {
-        padding: 10px 0;
+        /* padding: 10px 0; */
         transition-duration: 0.5s
     }
 
@@ -39243,11 +39243,11 @@ header {
 
 @media screen and (max-width: 991px) {
     .navbar-header-custom {
-        padding: 4px 0 8px
+        /* padding: 4px 0 8px */
     }
 
     .menu_area .navbar-brand {
-        margin-top: 6px
+        /* margin-top: 6px */
     }
 
     .navbar-nav li>ul {
@@ -39452,7 +39452,7 @@ header {
         border-radius: 0;
         position: absolute;
         right: 0;
-        top: 13px;
+        top: 20px;
         cursor: pointer;
         z-index: 12399994;
         border: none

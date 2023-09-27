@@ -14,7 +14,7 @@
                                 <div class="navbar-header navbar-header-custom">
                                     <!-- start logo -->
                                     <a href="index.html" class="navbar-brand logodefault"><img id="logo"
-                                            src="https://golf.websitelayout.net/img/logos/logo.png" alt="logo"></a>
+                                            src="/logo.JPG" alt="logo"></a>
                                     <!-- end logo -->
                                 </div>
 
@@ -38,7 +38,7 @@
     </header>
 </template>
 
-<style scoped>
+<style>
 @import '@/assets/css/golf-list-plugins.css';
 @import '@/assets/css/golf-list-base.css';
 @import '@/assets/css/golf-list-search.css';
