@@ -10,11 +10,11 @@
                                     alt="...">
                                 <div class="card-body position-relative pb-1-9 pb-lg-2-3 px-1-9 px-lg-2-3 pt-6">
                                     <span class="bg-white text-secondary py-2 px-3">ハノイ</span>
-                                    <h3 class="h2"><a href="blog-detail.html" class="font-weight-500">Ten features of golf
-                                            that make everyone love it.</a></h3>
-                                    <p>It had such high applause that a few golf players guaranteed Waterville to be the
-                                        best fairway on the planet.</p>
-                                    <a href="blog-detail.html" class="text-primary">Read more </a>
+                                    <h3 class="h2"><NuxtLink to="/detail" class="font-weight-500">ザ・ブラッジス・ゴルフ・クラブ</NuxtLink>
+                                    </h3>
+                                    <p>ザ・ブラッジス・ゴルフ・クラブはベトナムで最も有名なゴルフリゾートの一つで、美しい自然環境に囲まれています。チャンピオンシップコースとして知られ、雄大な景色が楽しめます。
+                                    </p>
+                                    <NuxtLink to="/detail" class="text-primary">Read more </NuxtLink>
                                 </div>
                             </article>
                         </div>
@@ -24,11 +24,9 @@
                                     alt="...">
                                 <div class="card-body position-relative pb-1-9 pb-lg-2-3 px-1-9 px-lg-2-3 pt-6">
                                     <span class="bg-white text-secondary py-2 px-3">ホーチミン</span>
-                                    <h3 class="h2"><a href="blog-detail.html" class="font-weight-500">Learn all about golf
-                                            from this politician.</a></h3>
-                                    <p>It had such high applause that a few golf players guaranteed Waterville to be the
-                                        best fairway on the planet.</p>
-                                    <a href="blog-detail.html" class="text-primary">Read more </a>
+                                    <h3 class="h2"><NuxtLink to="/detail" class="font-weight-500">ダナン・ゴルフ・クラブ</NuxtLink></h3>
+                                    <p>ダナン・ゴルフ・クラブはダナン市に位置し、海に面したゴルフ場で、素晴らしい海岸線の景色が楽しめます。18ホールのコースは挑戦的で、ゴルファーにとって魅力的です。</p>
+                                    <NuxtLink to="/detail" class="text-primary">Read more </NuxtLink>
                                 </div>
                             </article>
                         </div>
@@ -38,13 +36,12 @@
                                     alt="...">
                                 <div class="card-body position-relative pb-1-9 pb-lg-2-3 px-1-9 px-lg-2-3 pt-6">
                                     <span class="bg-white text-secondary py-2 px-3">ハノイ</span>
-                                    <h3 class="h2"><a href="blog-detail.html" class="font-weight-500">The truth about golf
-                                            is about to be revealed.</a></h3>
-                                    <p>It had such high applause that a few golf players guaranteed Waterville to be the
-                                        best fairway on the planet.</p>
-                                    <a href="blog-detail.html" class="text-primary">Read more
+                                    <h3 class="h2"><NuxtLink to="/detail" class="font-weight-500">モンテグランデ・ゴルフクラブ</NuxtLink>
+                                    </h3>
+                                    <p>モンテグランデ・ゴルフクラブはホーチミン市の近くに位置し、都市の喧騒から離れた静かな場所にあります。美しい湖と緑豊かな風景が特徴です。</p>
+                                    <NuxtLink to="/detail" class="text-primary">Read more
 
-                                    </a>
+                                    </NuxtLink>
                                 </div>
                             </article>
                         </div>
@@ -54,11 +51,9 @@
                                     alt="...">
                                 <div class="card-body position-relative pb-1-9 pb-lg-2-3 px-1-9 px-lg-2-3 pt-6">
                                     <span class="bg-white text-secondary py-2 px-3">ハノイ</span>
-                                    <h3 class="h2"><a href="blog-detail.html" class="font-weight-500">Seven facts that
-                                            nobody told you about sports.</a></h3>
-                                    <p>It had such high applause that a few golf players guaranteed Waterville to be the
-                                        best fairway on the planet.</p>
-                                    <a href="blog-detail.html" class="text-primary">Read more </a>
+                                    <h3 class="h2"><NuxtLink to="/detail" class="font-weight-500">クインホン・サンダンズ・ゴルフリンクス</NuxtLink></h3>
+                                    <p>クインホン・サンダンズ・ゴルフリンクスはベトナム中部に位置し、砂丘地帯に広がる美しいゴルフ場です。風光明媚な景色と高品質の設備が魅力です。</p>
+                                    <NuxtLink to="/detail" class="text-primary">Read more </NuxtLink>
                                 </div>
                             </article>
                         </div>
@@ -68,22 +63,21 @@
                                     alt="...">
                                 <div class="card-body position-relative pb-1-9 pb-lg-2-3 px-1-9 px-lg-2-3 pt-6">
                                     <span class="bg-white text-secondary py-2 px-3">ホーチミン</span>
-                                    <h3 class="h2"><a href="blog-detail.html" class="font-weight-500">Learn how to make more
-                                            money with golf.</a></h3>
-                                    <p>It had such high applause that a few golf players guaranteed Waterville to be the
-                                        best fairway on the planet.</p>
-                                    <a href="blog-detail.html" class="text-primary">Read more </a>
+                                    <h3 class="h2"><NuxtLink to="/detail" class="font-weight-500">サッポロ・ダナンゴルフクラブ</NuxtLink>
+                                    </h3>
+                                    <p>サッポロ・ダナンゴルフクラブは、ダナン市にある日本資本のゴルフクラブで、日本のゴルファーにも人気です。美しい日本庭園と日本料理のレストランがあります。</p>
+                                    <NuxtLink to="/detail" class="text-primary">Read more </NuxtLink>
                                 </div>
                             </article>
                         </div>
                     </div>
                     <nav aria-label="Page navigation example">
                         <ul class="pagination mt-5">
-                            <li class="page-item"><a class="page-link" href="#!">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">前</a></li>
                             <li class="page-item"><a class="page-link" href="#!">1</a></li>
                             <li class="page-item"><a class="page-link" href="#!">2</a></li>
                             <li class="page-item"><a class="page-link" href="#!">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">Next</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">次</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -91,26 +85,14 @@
                     <div class="sidebar">
                         <div class="widget search-box mb-4 p-4">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search here...">
+                                <input type="text" class="form-control" placeholder="">
                                 <div class="input-group-append">
                                     <button class="main-btn" type="button"><i class="fa fa-search"></i></button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="widget mb-4 p-4">
-                            <div class="mb-4">
-                                <span class="section-title text-primary mb-0">Categories</span>
-                            </div>
-                            <ul class="list-style2 list-unstyled mb-0 ps-0">
-                                <li><a href="#!">Championship <span class="float-end">(3)</span></a></li>
-                                <li><a href="#!">Competition <span class="float-end">(4)</span></a></li>
-                                <li><a href="#!">Golf Course <span class="float-end">(5)</span></a></li>
-                                <li><a href="#!">Golf Tips <span class="float-end">(1)</span></a></li>
-                                <li><a href="#!">Technics <span class="float-end">(3)</span></a></li>
-                                <li><a href="#!">Tournaments <span class="float-end">(2)</span></a></li>
-                            </ul>
-                        </div>
+                        <Categories></Categories>
                     </div>
                 </div>
             </div>
@@ -118,8 +100,7 @@
     </section>
 </template>
 
-<style scoped>
-@import '@/assets/css/golf-list-plugins.css';
+<style scoped>@import '@/assets/css/golf-list-plugins.css';
 @import '@/assets/css/golf-list-base.css';
 @import '@/assets/css/golf-list-search.css';
 @import '@/assets/css/golf-list-styles.css';</style>

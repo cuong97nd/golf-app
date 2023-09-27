@@ -8,7 +8,7 @@
                             <div class="flex justify-center"><img
                                     src="https://golf.websitelayout.net/img/content/feature-icon-01.png" alt="..."
                                     class="mb-3"></div>
-                            <h3 class="mb-0"><a href="#!" class="font-weight-500">Training Camps</a></h3>
+                            <h4 class="mb-0"><a href="#!" class="font-weight-500">トレーニングキャンプ</a></h4>
                         </div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                             <div class="flex justify-center"><img
                                     src="https://golf.websitelayout.net/img/content/feature-icon-02.png" alt="..."
                                     class="mb-3"></div>
-                            <h3 class="mb-0"><a href="#!" class="font-weight-500">Qualified Instructor</a></h3>
+                            <h4 class="mb-0"><a href="#!" class="font-weight-500">有資格<br>インストラクター</a></h4>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                             <div class="flex justify-center"><img
                                     src="https://golf.websitelayout.net/img/content/feature-icon-03.png" alt="..."
                                     class="mb-3"></div>
-                            <h3 class="mb-0"><a href="#!" class="font-weight-500">Group Lessons</a></h3>
+                            <h4 class="mb-0"><a href="#!" class="font-weight-500">グループレッスン</a></h4>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                             <div class="flex justify-center"><img
                                     src="https://golf.websitelayout.net/img/content/feature-icon-04.png" alt="..."
                                     class="mb-3"></div>
-                            <h3 class="mb-0"><a href="#!" class="font-weight-500">Private Coaching</a></h3>
+                            <h4 class="mb-0"><a href="#!" class="font-weight-500">プライベート<br>コーチング</a></h4>
                         </div>
                     </div>
                 </div>

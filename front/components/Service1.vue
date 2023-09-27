@@ -3,7 +3,7 @@
         <div class="container">
             <div class="text-center mb-2-3 mb-lg-6">
                 <span class="section-title text-primary">OUR SERVICES</span>
-                <h2 class="h1 mb-0 text-secondary">Our Best Services</h2>
+                <h2 class="h1 mb-0 text-secondary">最高のサービス</h2>
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-4 mb-1-9 mb-lg-0">
@@ -14,7 +14,7 @@
                             </div>
                             <div class="card-overlay">
                                 <div class="card-inner">
-                                    <h3 class="mb-0"><a href="golf-coaching.html" class="text-white">Golf
+                                    <h3 class="mb-0"><a href="#!golf-coaching.html" class="text-white">Golf
                                             Coaching</a></h3>
                                     <span class="text-primary">Best Ground</span>
                                 </div>
@@ -30,7 +30,7 @@
                             </div>
                             <div class="card-overlay">
                                 <div class="card-inner">
-                                    <h3 class="mb-0"><a href="course-gide.html" class="text-white">Course Gide</a>
+                                    <h3 class="mb-0"><a href="#!course-gide.html" class="text-white">Course Gide</a>
                                     </h3>
                                     <span class="text-primary">Best Trainers</span>
                                 </div>
@@ -46,7 +46,7 @@
                             </div>
                             <div class="card-overlay">
                                 <div class="card-inner">
-                                    <h3 class="mb-0"><a href="specials-service.html" class="text-white">Specials
+                                    <h3 class="mb-0"><a href="#!specials-service.html" class="text-white">Specials
                                             Service</a></h3>
                                     <span class="text-primary">Best Trainers</span>
                                 </div>

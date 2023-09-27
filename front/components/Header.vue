@@ -13,8 +13,8 @@
 
                                 <div class="navbar-header navbar-header-custom">
                                     <!-- start logo -->
-                                    <a href="index.html" class="navbar-brand logodefault"><img id="logo"
-                                            src="/logo.JPG" alt="logo"></a>
+                                    <NuxtLink to="/" class="navbar-brand logodefault"><img id="logo"
+                                            src="/logo.JPG" alt="logo"></NuxtLink>
                                     <!-- end logo -->
                                 </div>
 
@@ -22,10 +22,10 @@
 
                                 <!-- menu area -->
                                 <ul class="navbar-nav ms-auto" id="nav" style="">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="index.html">List</a></li>
+                                    <li><NuxtLink to="/">ホーム</NuxtLink></li>
+                                    <li><NuxtLink to="/list">ゴルフ場一覧</NuxtLink></li>
 
-                                    <li class="active"><a href="contact.html">Contacts</a></li>
+                                    <li class="active"><a href="#contact">コンタクト</a></li>
                                 </ul>
                                 <!-- end menu area -->
                             </nav>
