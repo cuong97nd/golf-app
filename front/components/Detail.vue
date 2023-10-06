@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { data } from "../data";
+
+const router = useRouter()
+const golf = data.find(e => e.id.toString() === router.currentRoute.value.query.id)!
+</script>
 <template>
     <section class="bg-light">
         <div class="container">
@@ -6,29 +12,76 @@
                     <div class="row">
                         <div class="col-lg-12 mb-6">
                             <article class="card card-style1 border-0">
-                                <img src="https://golf.websitelayout.net/img/blog/blog-detail-01.jpg" class="card-img-top"
-                                    alt="...">
+                                <img :src="golf.cover" class="card-img-top" alt="...">
                                 <div class="card-body p-1-9 p-lg-2-3">
                                     <ul class="list-unstyled">
                                         <li class="d-inline-block me-4">
                                             <div class="media">
                                                 <a href="#!" class="font-weight-500 text-dark">
-                                                    <i class="far fa-calendar-check me-1 text-primary"></i> ハノイ
+                                                    <i class="far fa-calendar-check me-1 text-primary"></i> {{ golf.city }}
                                                 </a>
                                             </div>
                                         </li>
 
                                     </ul>
-                                    <h2>ザ・ブラッジス・ゴルフ・クラブ</h2>
+                                    <h2>{{ golf.nameKana }}</h2>
+                                    <h5>料金</h5>
+                                    <p>平日の料：<strong>{{ golf.giaNgayThuong.toLocaleString('vi-VN') }}</strong>ドン<br>
+                                        週末の料：<strong>{{ (golf.giaNgayCuoiTuan ?? golf.giaNgayThuong).toLocaleString('vi-VN')
+                                        }}</strong>ドン<br>
+                                        祝日の料：<strong>{{ (golf.giaNgayLe ?? golf.giaNgayThuong).toLocaleString('vi-VN') }}</strong>ドン</p>
+
+                                    <h5>ゴルフ場紹介</h5>
                                     <p class="mb-4">
-                                        ザ・ブラッジス・ゴルフ・クラブはベトナムで最も有名なゴルフリゾートの一つで、美しい自然環境に囲まれています。チャンピオンシップコースとして知られ、雄大な景色が楽しめます。
+                                        {{ golf.describe }}
                                     </p>
+                                    <h5>住所</h5>
+                                    <p class="mb-4">
+                                        {{ golf.address }}
+                                    </p>
+                                    <h5>ホームページ（自社）URL</h5>
+                                    <a class="mb-4" :href="golf.aboutUsUrl" target="_blank">
+                                        {{ golf.aboutUsUrl }}
+                                    </a>
+                                    <h5 class="mt-4">評価</h5>
+                                    <div class="flex items-center space-x-1">
+                                        <svg class="w-4 h-4 " :class="golf.star >= 1 ? 'text-yellow-300' : 'text-gray-300'"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 22 20">
+                                            <path
+                                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                        </svg>
+                                        <svg class="w-4 h-4 " :class="golf.star >= 2 ? 'text-yellow-300' : 'text-gray-300'"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 22 20">
+                                            <path
+                                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                        </svg>
+                                        <svg class="w-4 h-4 " :class="golf.star >= 3 ? 'text-yellow-300' : 'text-gray-300'"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 22 20">
+                                            <path
+                                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                        </svg>
+                                        <svg class="w-4 h-4 " :class="golf.star >= 4 ? 'text-yellow-300' : 'text-gray-300'"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 22 20">
+                                            <path
+                                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                        </svg>
+                                        <svg class="w-4 h-4 " :class="golf.star >= 5 ? 'text-yellow-300' : 'text-gray-300'"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 22 20">
+                                            <path
+                                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                        </svg>
+                                    </div>
 
                                 </div>
                             </article>
                         </div>
                         <!-- comment -->
-                        <div class="bg-white p-1-9 p-lg-2-3 rounded">
+                        <!-- <div class="bg-white p-1-9 p-lg-2-3 rounded">
                             <span class="section-title text-primary mb-4">Comments</span>
                             <div class="d-flex mb-2-9">
                                 <div class="flex-shrink-0">
@@ -62,15 +115,15 @@
                                     <a class="text-primary anim-link-2 small" href="#!">Reply</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- end comment-->
 
-                        <div class="bg-white p-1-9 p-lg-2-3 rounded">
+                        <!-- <div class="bg-white p-1-9 p-lg-2-3 rounded">
                             <div class="mb-4">
                                 <span class="section-title text-primary mb-0">Leave a reply</span>
                             </div>
 
-                            <!-- Form -->
+                          
                             <form>
                                 <div class="row">
                                     <div class="col-sm">
@@ -93,31 +146,32 @@
                                     <button class="butn" type="submit">送信</button>
                                 </div>
                             </form>
-                            <!-- End Form -->
 
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
                 <div class="col-lg-4 ps-lg-5 mt-1-9">
                     <div class="sidebar">
-                        <div class="widget search-box mb-4 p-4">
+                        <!-- <div class="widget search-box mb-4 p-4">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search here...">
                                 <div class="input-group-append">
                                     <button class="main-btn" type="button"><i class="fa fa-search"></i></button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                    <Categories></Categories>
+                        <Categories></Categories>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section></template>
+    </section>
+</template>
 
-<style scoped>@import '@/assets/css/golf-list-plugins.css';
+<style scoped>
+@import '@/assets/css/golf-list-plugins.css';
 @import '@/assets/css/golf-list-base.css';
 @import '@/assets/css/golf-list-search.css';
 @import '@/assets/css/golf-list-styles.css';</style>
