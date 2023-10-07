@@ -6,7 +6,7 @@ watch(currentRoute, () => {
     window.scrollTo({ top: 0, behavior: "instant" });
 })
 
-const itemsPerPage = 6;
+const itemsPerPage = 8;
 const paginatedItems = computed(() => {
     const currentPage = currentRoute.value.query.currentPage ?? 1;
     const startIndex = (parseInt(currentPage as string) - 1) * itemsPerPage;
