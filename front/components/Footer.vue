@@ -4,10 +4,3 @@
             Powered by <a href="#!" >Birdie and Eagle</a></p>
     </footer>
 </template>
-
-<style scoped>
-@import '@/assets/css/golf-list-plugins.css';
-@import '@/assets/css/golf-list-base.css';
-@import '@/assets/css/golf-list-search.css';
-@import '@/assets/css/golf-list-styles.css';
-</style>

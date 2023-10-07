@@ -8,22 +8,21 @@ function contact() {
 const togge = ref(false)
 onMounted(() => {
     if (process.client) {
-        if (window.innerWidth > 900) {
-            togge.value = true
-        } else {
-            togge.value = false
-        };
+        resizeHandel()
 
         window.addEventListener('resize', () => {
-            if (window.innerWidth > 900) {
-                togge.value = true
-            } else {
-                togge.value = false
-            };
+            resizeHandel()
         })
     }
-
 })
+
+function resizeHandel() {
+    if (window.innerWidth > 900) {
+        togge.value = true
+    } else {
+        togge.value = false
+    };
+}
 </script>
 <template>
     <header class="header-style2 scrollHeader">
@@ -50,14 +49,14 @@ onMounted(() => {
                                 <!-- menu area -->
                                 <ul class="navbar-nav ms-auto" :style="{ 'display': togge ? 'block' : 'none' }" id="nav"
                                     style="">
-                                    <li @click="togge = false">
+                                    <li @click="togge = false; resizeHandel()">
                                         <NuxtLink to="/">ホーム</NuxtLink>
                                     </li>
-                                    <li>
+                                    <li @click="togge = false; resizeHandel()">
                                         <NuxtLink to="/list">ゴルフ場一覧</NuxtLink>
                                     </li>
 
-                                    <li class="active"><a @click="contact(); togge = false" href="#!"
+                                    <li class="active"><a @click="contact(); togge = false; resizeHandel()" href="#!"
                                             onclick="return false;">コンタクト</a></li>
                                 </ul>
                                 <!-- end menu area -->
@@ -70,10 +69,3 @@ onMounted(() => {
 
     </header>
 </template>
-
-<style>
-@import '@/assets/css/golf-list-plugins.css';
-@import '@/assets/css/golf-list-base.css';
-@import '@/assets/css/golf-list-search.css';
-@import '@/assets/css/golf-list-styles.css';
-</style>
