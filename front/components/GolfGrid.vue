@@ -21,7 +21,7 @@ const golfs = data.filter(e => vip.includes(e.id));
                                 <NuxtLink :to="`/detail?id=${golf.id}`" class="font-weight-500">{{ golf.nameKana }}</NuxtLink>
                             </h3>
                             <p>{{ golf.describe.substring(0, 100)  }} ...</p>
-                            <NuxtLink :to="`/detail?id=${golf.id}`" class="text-primary">Read more </NuxtLink>
+                            <NuxtLink :to="`/detail?id=${golf.id}`" class="text-primary">もっと読む</NuxtLink>
                         </div>
                     </article>
                 </div>
