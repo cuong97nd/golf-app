@@ -21782,7 +21782,7 @@ fieldset:disabled .btn {
     font-weight: 400;
     font-display: block;
     src: url(../fonts/fa-brands-400.eot);
-    src: url(../fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-brands-400.woff2) format("woff2"), url(../fonts/fa-brands-400.woff) format("woff"), url(../fonts/fa-brands-400.ttf) format("truetype"), url(../fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-brands-400.woff2) format("woff2"), url(../fonts/fa-brands-400.woff) format("woff")
 }
 
 .fab {
@@ -21795,7 +21795,7 @@ fieldset:disabled .btn {
     font-weight: 400;
     font-display: block;
     src: url(../fonts/fa-regular-400.eot);
-    src: url(../fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-regular-400.woff2) format("woff2"), url(../fonts/fa-regular-400.woff) format("woff"), url(../fonts/fa-regular-400.ttf) format("truetype"), url(../fonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-regular-400.woff2) format("woff2"), url(../fonts/fa-regular-400.woff) format("woff")
 }
 
 .fab,
@@ -21809,7 +21809,7 @@ fieldset:disabled .btn {
     font-weight: 900;
     font-display: block;
     src: url(../fonts/fa-solid-900.eot);
-    src: url(../fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-solid-900.woff2) format("woff2"), url(../fonts/fa-solid-900.woff) format("woff"), url(../fonts/fa-solid-900.ttf) format("truetype"), url(../fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-solid-900.woff2) format("woff2"), url(../fonts/fa-solid-900.woff) format("woff")
 }
 
 .fa,
@@ -21826,7 +21826,7 @@ fieldset:disabled .btn {
 @font-face {
     font-family: 'themify';
     src: url("../fonts/themify.eot?-fvbane");
-    src: url("../fonts/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../fonts/themify.woff?-fvbane") format("woff"), url("../fonts/themify.ttf?-fvbane") format("truetype"), url("../fonts/themify.svg?-fvbane#themify") format("svg");
+    src: url("../fonts/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../fonts/themify.woff?-fvbane") format("woff"), url("../fonts/themify.ttf?-fvbane") format("truetype");
     font-weight: normal;
     font-style: normal
 }
@@ -23878,7 +23878,7 @@ screen and (max-height: 300px) {
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url("owl.video.play.png") no-repeat;
+    /* background: url("owl.video.play.png") no-repeat; */
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -23974,7 +23974,7 @@ screen and (max-height: 300px) {
 * Copyright (c) 2020 Sachin N; Licensed GPLv3 */
 @font-face {
     font-family: 'lg';
-    src: url("../fonts/lg.ttf?22t19m") format("truetype"), url("../fonts/lg.woff?22t19m") format("woff"), url("../fonts/lg.svg?22t19m#lg") format("svg");
+    src: url("../fonts/lg.ttf?22t19m") format("truetype"), url("../fonts/lg.woff?22t19m") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: block
@@ -24450,11 +24450,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-has-vimeo .lg-video-play {
-    background: url("../../img/icons/vimeo-play.png") no-repeat scroll 0 0 transparent
+    /* background: url("../../img/icons/vimeo-play.png") no-repeat scroll 0 0 transparent */
 }
 
 .lg-outer .lg-has-vimeo:hover .lg-video-play {
-    background: url("../../img/icons/vimeo-play.png") no-repeat scroll 0 -58px transparent
+    /* background: url("../../img/icons/vimeo-play.png") no-repeat scroll 0 -58px transparent */
 }
 
 .lg-outer .lg-has-html5 .lg-video-play {
@@ -24471,11 +24471,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-has-youtube .lg-video-play {
-    background: url("../../img/icons/youtube-play.png") no-repeat scroll 0 0 transparent
+    /* background: url("../../img/icons/youtube-play.png") no-repeat scroll 0 0 transparent */
 }
 
 .lg-outer .lg-has-youtube:hover .lg-video-play {
-    background: url("../../img/icons/youtube-play.png") no-repeat scroll 0 -60px transparent
+    /* background: url("../../img/icons/youtube-play.png") no-repeat scroll 0 -60px transparent */
 }
 
 .lg-outer .lg-video-object {
@@ -24967,7 +24967,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-item {
-    background: url("../../img/content/loading.gif") no-repeat scroll center center transparent;
+    /* background: url("../../img/content/loading.gif") no-repeat scroll center center transparent; */
     display: none !important
 }
 
